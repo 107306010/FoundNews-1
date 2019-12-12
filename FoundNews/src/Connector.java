@@ -1,4 +1,3 @@
-
 public class Connector {
 	public String url;
 	public Node a;//have to modify
