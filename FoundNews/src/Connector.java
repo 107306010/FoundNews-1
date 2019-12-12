@@ -1,6 +1,6 @@
 public class Connector {
 	public String url;
-	public Node a;//have to modify
+	public WebNode a;//have to modify
 	public Connector(String url) {
 		this.url=url;
 	}
@@ -9,7 +9,7 @@ public class Connector {
 		return url;
 	}
 	
-	public Node acceptResult() {
+	public WebNode acceptResult() {
 		return a;
 	}
 	
